@@ -5,11 +5,10 @@ def bubble_sort(arr)
         arr[j],arr[j-1]=arr[j-1],arr[j] if(arr[j]<arr[j-1])
     end
   end
-  
   arr
 end
 
-array  = [4,3,78,2,0,2]
+array = [4,3,78,2,0,2]
 array2 = [20,13,2,33,12]
 p sorted=bubble_sort(array)
 p sorted=bubble_sort(array2)
